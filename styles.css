@@ -15,5 +15,19 @@
   width: 100%;
   height: 100vh;
   background-color: rgb(240, 240, 240);
-  
+}
+
+.grid {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.test {
+  width: 23%;
+  height: 40%;
+  background-color: white;
+  box-shadow: 5px 5px 5px black;
 }
